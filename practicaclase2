@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main(void) {
+int valor;
+valor=1;
+
+/**scanf("%d",&i);
+
+for(i=1; i<=30;i++){
+    
+    printf("hola \n");
+}
+
+while(i>=1){
+    printf("Chau \n");
+    
+}*/
+
+
+
+switch(valor){
+    case 0
+    printf("holaaaa");
+    break;
+    case 1
+    printf("chauu");
+    break;
+    default
+}
+
+	return 0;
+}
