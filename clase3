@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**int suma(int a,int b);
+
+int main()
+
+{
+
+//funciones modulo que se encarga de hacer una tarea y de devolver un resultado.
+
+
+    a la hora de hacer una funcion debe responder tres preguntas
+    que hace la funcion?
+    que resultado va a devolver
+    que recibe
+
+
+
+    int x;
+    int y;
+    int z;
+    printf("ingrese el primer valor");
+    scanf("%d",&x);
+    printf("ingrese el segundo valor");
+    scanf("%d",&y);
+    z=suma(x,y);
+    printf("el resultado de la suma es %d: \n",z);
+
+    return 0;
+
+}
+int suma(int a, int b)
+{
+    int total;
+    total= a+b;
+    return total;
+
+}
+#include <stdio.h>
+void muestra(int x,int y);
+void main(void)
+{
+    int x,y;
+    printf("Ingrese un numero entero");
+    scanf("%d",&x);
+    printf("Ingrese un numero entero");
+    scanf("%d",&y);
+    muestra(x,y);
+    printf("\n-----valores dentro de main----");
+    printf("\nx vale %d \ny vale %d",x,y);
+}
+void muestra(int x,int y)
+{
+    x=y;
+    printf("\n-----valores dentro de la funcion----");
+    printf("\nx vale %d \ny vale %d",x,y);
+}*/
+
+
