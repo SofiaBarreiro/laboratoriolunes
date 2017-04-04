@@ -1,0 +1,64 @@
+
+/*int main()
+{
+    int i;
+    float v[5];
+    for(i=0;i<5;i++)
+    {
+    printf("\ningrese un valor\n");
+    scanf("%f", &v[i]);
+    }
+    for(i=0; i<5; i++)
+    {
+    printf("\nnumero ingresado %f\n", v[i]);
+    }
+    return 0;
+}
+
+int main()
+{
+  float legajo[5];
+    float salario[5];
+    int edad[5];
+    int i;
+
+    for(i=0; i<5; i++)
+    {
+        printf("ingrese el numero de legajo");
+        scanf("%f", &legajo[i]);
+
+        printf("ingrese la edad");
+        scanf("%d", &edad[i]);
+
+        printf("ingrese el salario");
+        scanf("%f", &salario[i]);
+    }
+    for(i=0; i<5; i++)
+    {
+        printf("el numero de legajo es %.4f, la edad es %d, el salario es %.3f\n", legajo[i], edad[i], salario[i]);
+    }
+
+    int edad[MAX], i, leg;
+
+    float sueldo[max], suma=0, prom, aux;
+    for(i=0; i<MAX; i++)
+    {
+    edad[i]=0;
+    sueldo[i]=0;
+    }
+    do{
+        printf("ingrese legajo");
+        scanf("%d", &leg);
+        printf("ingrese edad");
+        scanf("%d", &edad[leg-1]);
+        printf(("ingrese el sueldo");
+        scanf("%d", &aux);
+        sueldo[i]=aux;
+
+        printf("desea ingresar otro datos S/N:");
+        scanf("%c", &seguir);
+    }
+    while(seguir=='s');
+    return 0;
+}
+*/
